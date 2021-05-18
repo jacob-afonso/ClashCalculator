@@ -62,7 +62,9 @@ def clear():
     main.pack()
 
 def compile_res():
-    file = open("currentlvl.txt", "a")
+    clear()
+    Label(main, text="you can now close this window and move to step 2").pack()
+    file = open("currentlvl.txt", "a+")
     # ---Heros and pets---
     file.write(bk1.get() + ",x1,bk\n")
     file.write(aq1.get() + ",x1,aq\n")
@@ -117,224 +119,224 @@ def compile_res():
 
     # ---Defenses---
     countarr=[]
-    countarr = [0 for i in range(CANNON)]
-    countarr[int(can1.get())-1] += 1
-    countarr[int(can2.get())-1] += 1
-    countarr[int(can3.get())-1] += 1
-    countarr[int(can4.get())-1] += 1
-    countarr[int(can5.get())-1] += 1
-    countarr[int(can6.get())-1] += 1
-    countarr[int(can7.get())-1] += 1
-    for i in range (CANNON):
+    countarr = [0 for i in range(CANNON+1)]
+    countarr[int(can1.get())] += 1
+    countarr[int(can2.get())] += 1
+    countarr[int(can3.get())] += 1
+    countarr[int(can4.get())] += 1
+    countarr[int(can5.get())] += 1
+    countarr[int(can6.get())] += 1
+    countarr[int(can7.get())] += 1
+    for i in range (CANNON+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",cannon\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",cannon\n")
 
-    countarr = [0 for i in range(AT)]
-    countarr[int(at1.get())-1] += 1
-    countarr[int(at2.get())-1] += 1
-    countarr[int(at3.get())-1] += 1
-    countarr[int(at4.get())-1] += 1
-    countarr[int(at5.get())-1] += 1
-    countarr[int(at6.get())-1] += 1
-    countarr[int(at7.get())-1] += 1
-    countarr[int(at8.get())-1] += 1
-    for i in range (AT):
+    countarr = [0 for i in range(AT+1)]
+    countarr[int(at1.get())] += 1
+    countarr[int(at2.get())] += 1
+    countarr[int(at3.get())] += 1
+    countarr[int(at4.get())] += 1
+    countarr[int(at5.get())] += 1
+    countarr[int(at6.get())] += 1
+    countarr[int(at7.get())] += 1
+    countarr[int(at8.get())] += 1
+    for i in range (AT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",at\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",at\n")
 
-    countarr = [0 for i in range(MORTAR)]
-    countarr[int(mor1.get())-1] += 1
-    countarr[int(mor2.get())-1] += 1
-    countarr[int(mor3.get())-1] += 1
-    countarr[int(mor4.get())-1] += 1
-    for i in range (MORTAR):
+    countarr = [0 for i in range(MORTAR+1)]
+    countarr[int(mor1.get())] += 1
+    countarr[int(mor2.get())] += 1
+    countarr[int(mor3.get())] += 1
+    countarr[int(mor4.get())] += 1
+    for i in range (MORTAR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",mortar\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",mortar\n")
 
-    countarr = [0 for i in range(AD)]
-    countarr[int(ad1.get())-1] += 1
-    countarr[int(ad2.get())-1] += 1
-    countarr[int(ad3.get())-1] += 1
-    countarr[int(ad4.get())-1] += 1
-    for i in range (AD):
+    countarr = [0 for i in range(AD+1)]
+    countarr[int(ad1.get())] += 1
+    countarr[int(ad2.get())] += 1
+    countarr[int(ad3.get())] += 1
+    countarr[int(ad4.get())] += 1
+    for i in range (AD+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",ad\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",ad\n")
 
-    countarr = [0 for i in range(WT)]
-    countarr[int(wt1.get())-1] += 1
-    countarr[int(wt2.get())-1] += 1
-    countarr[int(wt3.get())-1] += 1
-    countarr[int(wt4.get())-1] += 1
-    countarr[int(wt5.get())-1] += 1
-    for i in range (WT):
+    countarr = [0 for i in range(WT+1)]
+    countarr[int(wt1.get())] += 1
+    countarr[int(wt2.get())] += 1
+    countarr[int(wt3.get())] += 1
+    countarr[int(wt4.get())] += 1
+    countarr[int(wt5.get())] += 1
+    for i in range (WT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",wt\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",wt\n")
     
-    countarr = [0 for i in range(AS)]
-    countarr[int(as1.get())-1] += 1
-    countarr[int(as2.get())-1] += 1
-    for i in range (AS):
+    countarr = [0 for i in range(AS+1)]
+    countarr[int(as1.get())] += 1
+    countarr[int(as2.get())] += 1
+    for i in range (AS+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",as\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",as\n")
 
-    countarr = [0 for i in range(TES)]
-    countarr[int(tes1.get())-1] += 1
-    countarr[int(tes2.get())-1] += 1
-    countarr[int(tes3.get())-1] += 1
-    countarr[int(tes4.get())-1] += 1
-    countarr[int(tes5.get())-1] += 1
-    for i in range (WT):
+    countarr = [0 for i in range(TES+1)]
+    countarr[int(tes1.get())] += 1
+    countarr[int(tes2.get())] += 1
+    countarr[int(tes3.get())] += 1
+    countarr[int(tes4.get())] += 1
+    countarr[int(tes5.get())] += 1
+    for i in range (WT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",tesla\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",tesla\n")
 
-    countarr = [0 for i in range(XBOW)]
-    countarr[int(bow1.get())-1] += 1
-    countarr[int(bow2.get())-1] += 1
-    countarr[int(bow3.get())-1] += 1
-    countarr[int(bow4.get())-1] += 1
-    for i in range (XBOW):
+    countarr = [0 for i in range(XBOW+1)]
+    countarr[int(bow1.get())] += 1
+    countarr[int(bow2.get())] += 1
+    countarr[int(bow3.get())] += 1
+    countarr[int(bow4.get())] += 1
+    for i in range (XBOW+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",bow\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",bow\n")
     
-    countarr = [0 for i in range(IT)]
-    countarr[int(it1.get())-1] += 1
-    countarr[int(it2.get())-1] += 1
-    countarr[int(it3.get())-1] += 1
-    for i in range (IT):
+    countarr = [0 for i in range(IT+1)]
+    countarr[int(it1.get())] += 1
+    countarr[int(it2.get())] += 1
+    countarr[int(it3.get())] += 1
+    for i in range (IT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",it\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",it\n")
     
-    countarr = [0 for i in range(EA)]
-    countarr[int(ea1.get())-1] += 1
-    for i in range (EA):
+    countarr = [0 for i in range(EA+1)]
+    countarr[int(ea1.get())] += 1
+    for i in range (EA+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",ea\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",ea\n")
 
-    countarr = [0 for i in range(GIGA)]
-    countarr[int(git1.get())-1] += 1
-    for i in range (GIGA):
+    countarr = [0 for i in range(GIGA+1)]
+    countarr[int(git1.get())] += 1
+    for i in range (GIGA+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",th14\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",th14\n")
 
-    countarr = [0 for i in range(SCATTER)]
-    countarr[int(sca1.get())-1] += 1 
-    countarr[int(sca2.get())-1] += 1
-    for i in range (SCATTER):
+    countarr = [0 for i in range(SCATTER+1)]
+    countarr[int(sca1.get())] += 1 
+    countarr[int(sca2.get())] += 1
+    for i in range (SCATTER+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",scatter\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",scatter\n")
 
-    countarr = [0 for i in range(HUT)]
-    countarr[int(hut1.get())-1] += 1
-    countarr[int(hut2.get())-1] += 1
-    countarr[int(hut3.get())-1] += 1
-    countarr[int(hut4.get())-1] += 1
-    for i in range (HUT):
+    countarr = [0 for i in range(HUT+1)]
+    countarr[int(hut1.get())] += 1
+    countarr[int(hut2.get())] += 1
+    countarr[int(hut3.get())] += 1
+    countarr[int(hut4.get())] += 1
+    for i in range (HUT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",hut\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",hut\n")
 
-    countarr = [0 for i in range(BOMB)]
-    countarr[int(bomb1.get())-1] += 1
-    countarr[int(bomb2.get())-1] += 1
-    countarr[int(bomb3.get())-1] += 1
-    countarr[int(bomb4.get())-1] += 1
-    countarr[int(bomb5.get())-1] += 1
-    countarr[int(bomb6.get())-1] += 1
-    countarr[int(bomb7.get())-1] += 1
-    countarr[int(bomb8.get())-1] += 1
-    for i in range (BOMB):
+    countarr = [0 for i in range(BOMB+1)]
+    countarr[int(bomb1.get())] += 1
+    countarr[int(bomb2.get())] += 1
+    countarr[int(bomb3.get())] += 1
+    countarr[int(bomb4.get())] += 1
+    countarr[int(bomb5.get())] += 1
+    countarr[int(bomb6.get())] += 1
+    countarr[int(bomb7.get())] += 1
+    countarr[int(bomb8.get())] += 1
+    for i in range (BOMB+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",bomb\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",bomb\n")
 
-    countarr = [0 for i in range(SPR)]
-    countarr[int(spr1.get())-1] += 1
-    countarr[int(spr2.get())-1] += 1
-    countarr[int(spr3.get())-1] += 1
-    countarr[int(spr4.get())-1] += 1
-    countarr[int(spr5.get())-1] += 1
-    countarr[int(spr6.get())-1] += 1
-    countarr[int(spr7.get())-1] += 1
-    countarr[int(spr8.get())-1] += 1
-    countarr[int(spr9.get())-1] += 1
-    for i in range (SPR):
+    countarr = [0 for i in range(SPR+1)]
+    countarr[int(spr1.get())] += 1
+    countarr[int(spr2.get())] += 1
+    countarr[int(spr3.get())] += 1
+    countarr[int(spr4.get())] += 1
+    countarr[int(spr5.get())] += 1
+    countarr[int(spr6.get())] += 1
+    countarr[int(spr7.get())] += 1
+    countarr[int(spr8.get())] += 1
+    countarr[int(spr9.get())] += 1
+    for i in range (SPR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",spring\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",spring\n")
     
-    countarr = [0 for i in range(RAB)]
-    countarr[int(rab1.get())-1] += 1
-    countarr[int(rab2.get())-1] += 1
-    countarr[int(rab3.get())-1] += 1
-    countarr[int(rab4.get())-1] += 1
-    countarr[int(rab5.get())-1] += 1
-    countarr[int(rab6.get())-1] += 1
-    countarr[int(rab7.get())-1] += 1
-    for i in range (RAB):
+    countarr = [0 for i in range(RAB+1)]
+    countarr[int(rab1.get())] += 1
+    countarr[int(rab2.get())] += 1
+    countarr[int(rab3.get())] += 1
+    countarr[int(rab4.get())] += 1
+    countarr[int(rab5.get())] += 1
+    countarr[int(rab6.get())] += 1
+    countarr[int(rab7.get())] += 1
+    for i in range (RAB+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",rab\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",rab\n")
 
-    countarr = [0 for i in range(GB)]
-    countarr[int(gb1.get())-1] += 1
-    countarr[int(gb2.get())-1] += 1
-    countarr[int(gb3.get())-1] += 1
-    countarr[int(gb4.get())-1] += 1
-    countarr[int(gb5.get())-1] += 1
-    countarr[int(gb6.get())-1] += 1
-    countarr[int(gb7.get())-1] += 1
-    for i in range (GB):
+    countarr = [0 for i in range(GB+1)]
+    countarr[int(gb1.get())] += 1
+    countarr[int(gb2.get())] += 1
+    countarr[int(gb3.get())] += 1
+    countarr[int(gb4.get())] += 1
+    countarr[int(gb5.get())] += 1
+    countarr[int(gb6.get())] += 1
+    countarr[int(gb7.get())] += 1
+    for i in range (GB+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",gb\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",gb\n")
 
-    countarr = [0 for i in range(SAM)]
-    countarr[int(sam1.get())-1] += 1
-    countarr[int(sam2.get())-1] += 1
-    countarr[int(sam3.get())-1] += 1
-    countarr[int(sam4.get())-1] += 1
-    countarr[int(sam5.get())-1] += 1
-    countarr[int(sam6.get())-1] += 1
-    countarr[int(sam7.get())-1] += 1
-    countarr[int(sam8.get())-1] += 1
-    for i in range (SAM):
+    countarr = [0 for i in range(SAM+1)]
+    countarr[int(sam1.get())] += 1
+    countarr[int(sam2.get())] += 1
+    countarr[int(sam3.get())] += 1
+    countarr[int(sam4.get())] += 1
+    countarr[int(sam5.get())] += 1
+    countarr[int(sam6.get())] += 1
+    countarr[int(sam7.get())] += 1
+    countarr[int(sam8.get())] += 1
+    for i in range (SAM+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",sam\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",sam\n")
     
-    countarr = [0 for i in range(SKELT)]
-    countarr[int(ske1.get())-1] += 1 
-    countarr[int(ske2.get())-1] += 1
-    countarr[int(ske3.get())-1] += 1
-    countarr[int(ske4.get())-1] += 1
-    for i in range (SKELT):
+    countarr = [0 for i in range(SKELT+1)]
+    countarr[int(ske1.get())] += 1 
+    countarr[int(ske2.get())] += 1
+    countarr[int(ske3.get())] += 1
+    countarr[int(ske4.get())] += 1
+    for i in range (SKELT+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",skelly\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",skelly\n")
     
-    countarr = [0 for i in range(NADO)]
-    countarr[int(nado1.get())-1] += 1 
-    for i in range (NADO):
+    countarr = [0 for i in range(NADO+1)]
+    countarr[int(nado1.get())] += 1 
+    for i in range (NADO+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",nado\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",nado\n")
     
-    countarr = [0 for i in range(CAMP)]
-    countarr[int(camp1.get())-1] += 1 
-    countarr[int(camp2.get())-1] += 1
-    countarr[int(camp3.get())-1] += 1
-    countarr[int(camp4.get())-1] += 1
-    for i in range (CAMP):
+    countarr = [0 for i in range(CAMP+1)]
+    countarr[int(camp1.get())] += 1 
+    countarr[int(camp2.get())] += 1
+    countarr[int(camp3.get())] += 1
+    countarr[int(camp4.get())] += 1
+    for i in range (CAMP+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",camp\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",camp\n")
 
-    countarr = [0 for i in range(BAR)]
-    countarr[int(bar1.get())-1] += 1 
-    countarr[int(bar2.get())-1] += 1
-    countarr[int(bar3.get())-1] += 1
-    countarr[int(bar4.get())-1] += 1
-    for i in range (BAR):
+    countarr = [0 for i in range(BAR+1)]
+    countarr[int(bar1.get())] += 1 
+    countarr[int(bar2.get())] += 1
+    countarr[int(bar3.get())] += 1
+    countarr[int(bar4.get())] += 1
+    for i in range (BAR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",baracks\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",baracks\n")
 
-    countarr = [0 for i in range(DBAR)]
-    countarr[int(dbar1.get())-1] += 1 
-    countarr[int(dbar2.get())-1] += 1
-    for i in range (DBAR):
+    countarr = [0 for i in range(DBAR+1)]
+    countarr[int(dbar1.get())] += 1 
+    countarr[int(dbar2.get())] += 1
+    for i in range (DBAR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",dark baracks\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",dark baracks\n")
     
     file.write(lab1.get() + ",x1,lab\n")
     file.write(spf1.get() + ",x1,spell fac\n")
@@ -342,63 +344,64 @@ def compile_res():
     file.write(wrk1.get() + ",x1,workshop\n")
     file.write(pet1.get() + ",x1,pet\n")
 
-    countarr = [0 for i in range(STORAGE)]
-    countarr[int(glds1.get())-1] += 1 
-    countarr[int(glds2.get())-1] += 1
-    countarr[int(glds3.get())-1] += 1
-    countarr[int(glds4.get())-1] += 1
-    for i in range (STORAGE):
+    countarr = [0 for i in range(STORAGE+1)]
+    countarr[int(glds1.get())] += 1 
+    countarr[int(glds2.get())] += 1
+    countarr[int(glds3.get())] += 1
+    countarr[int(glds4.get())] += 1
+    for i in range (STORAGE+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",gold storage\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",gold storage\n")
     
-    countarr = [0 for i in range(STORAGE)]
-    countarr[int(elxs1.get())-1] += 1 
-    countarr[int(elxs2.get())-1] += 1
-    countarr[int(elxs3.get())-1] += 1
-    countarr[int(elxs4.get())-1] += 1
-    for i in range (STORAGE):
+    countarr = [0 for i in range(STORAGE+1)]
+    countarr[int(elxs1.get())] += 1 
+    countarr[int(elxs2.get())] += 1
+    countarr[int(elxs3.get())] += 1
+    countarr[int(elxs4.get())] += 1
+    for i in range (STORAGE+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",elix storage\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",elix storage\n")
 
-    countarr = [0 for i in range(COLLECTOR)]
-    countarr[int(gldm1.get())-1] += 1 
-    countarr[int(gldm2.get())-1] += 1
-    countarr[int(gldm3.get())-1] += 1
-    countarr[int(gldm4.get())-1] += 1
-    countarr[int(gldm5.get())-1] += 1
-    countarr[int(gldm6.get())-1] += 1
-    countarr[int(gldm7.get())-1] += 1
-    for i in range (COLLECTOR):
+    countarr = [0 for i in range(COLLECTOR+1)]
+    countarr[int(gldm1.get())] += 1 
+    countarr[int(gldm2.get())] += 1
+    countarr[int(gldm3.get())] += 1
+    countarr[int(gldm4.get())] += 1
+    countarr[int(gldm5.get())] += 1
+    countarr[int(gldm6.get())] += 1
+    countarr[int(gldm7.get())] += 1
+    for i in range (COLLECTOR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",gold mine\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",gold mine\n")
 
-    countarr = [0 for i in range(COLLECTOR)]
-    countarr[int(elxc1.get())-1] += 1 
-    countarr[int(elxc2.get())-1] += 1
-    countarr[int(elxc3.get())-1] += 1
-    countarr[int(elxc4.get())-1] += 1
-    countarr[int(elxc5.get())-1] += 1
-    countarr[int(elxc6.get())-1] += 1
-    countarr[int(elxc7.get())-1] += 1
-    for i in range (COLLECTOR):
+    countarr = [0 for i in range(COLLECTOR+1)]
+    countarr[int(elxc1.get())] += 1 
+    countarr[int(elxc2.get())] += 1
+    countarr[int(elxc3.get())] += 1
+    countarr[int(elxc4.get())] += 1
+    countarr[int(elxc5.get())] += 1
+    countarr[int(elxc6.get())] += 1
+    countarr[int(elxc7.get())] += 1
+    for i in range (COLLECTOR+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",elix collector\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",elix collector\n")
     
-    countarr = [0 for i in range(DEDRILL)]
-    countarr[int(delxc1.get())-1] += 1 
-    countarr[int(delxc2.get())-1] += 1
-    countarr[int(delxc3.get())-1] += 1
-    for i in range (DEDRILL):
+    countarr = [0 for i in range(DEDRILL+1)]
+    countarr[int(delxc1.get())] += 1 
+    countarr[int(delxc2.get())] += 1
+    countarr[int(delxc3.get())] += 1
+    for i in range (DEDRILL+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",de drill\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",de drill\n")
     
-    countarr = [0 for i in range(DESTORAGE)]
-    countarr[int(delxs1.get())-1] += 1 
-    for i in range (DEDRILL):
+    countarr = [0 for i in range(DESTORAGE+1)]
+    countarr[int(delxs1.get())] += 1 
+    for i in range (DEDRILL+1):
         if countarr[i] != 0:
-            file.write(str(i+1) + ",x" + str(countarr[i]) + ",de storage\n")
+            file.write(str(i) + ",x" + str(countarr[i]) + ",de storage\n")
     
     file.write(cc1.get() + ",x1,cc\n")
+    file.close()
     
     
 
@@ -758,7 +761,7 @@ def th14Hero():
 
 # def th12():
     # default: rc, pet, giga it, th14, 2 scatter, 5 huts, 2 bombs, 1 spring, 1 rab, 1 gb, 2 sam, 1 skelly
-    # file = open("currentlvl.txt", "a")
+    # file = open("currentlvl.txt", "a+")
     # file.write("0,x1,rc\n")
     # file.write("0,x1,pet\n")
     # file.write("0,x1,giga it\n")
@@ -777,7 +780,7 @@ def th14Hero():
 
 # def th13():
     # default: pet, th14, 5 huts, 1 bomb, 1 rab, 1 gb, 1 sam, 1 skelly, giga tesla max
-    # file = open("currentlvl.txt", "a")
+    # file = open("currentlvl.txt", "a+")
     # file.write("5,x1,giga tesla\n")
     # file.write("0,x1,pet\n")
     # file.write("0,x1,th14\n")
@@ -793,7 +796,7 @@ def th14Hero():
 def th14():
     levels = ['0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20']
     # default: giga tesla max, giga it max
-    file = open("currentlvl.txt", "a")
+    file = open("currentlvl.txt", "a+")
     file.write("5,x1,giga tesla\n")
     file.write("5,x1,giga it\n")
     file.close()
@@ -1505,7 +1508,7 @@ def th14():
 def thEntered():
     global thlvl
     clear()
-    file = open("currentlvl.txt", "w")
+    file = open("currentlvl.txt", "w+")
     file.write(str(thlvl.get()) + ",x1,th\n")
     file.close()
     if thlvl.get() == 14:
