@@ -1,8 +1,8 @@
 # ClashCalculator
-System Requirements:
-python3 installed
+System Requirements: python3 installed
 
 HOW TO RUN:
+
 Step 1: Generate the currentlvl.txt file
 - The gui.py program will provide an easy interface to enter your base levels. 
 - Double clicking this file to run it. 
