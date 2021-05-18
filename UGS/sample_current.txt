@@ -1,0 +1,97 @@
+13,x1,th
+5,x1,giga tesla
+2,x1,giga it
+9,x1,cc
+14,x2,cannon
+15,x5,cannon
+15,x8,at
+9,x2,wt
+10,x2,wt
+11,x1,wt
+10,x1,ad
+11,x3,ad
+8,x4,mortar
+8,x1,tesla
+9,x2,tesla
+10,x2,tesla
+6,x1,bow
+7,x3,bow
+7,x3,it
+6,x1,as
+7,x1,as
+4,x1,ea
+5,x2,bt
+1,x1,scatter
+2,x1,scatter
+55,x1,bk
+74,x1,aq
+31,x1,gw
+1,x1,rc
+14,x4,elix storage
+13,x7,elix collector
+13,x6,gold mine
+14,x1,gold mine
+14,x4,gold storage
+7,x3,de drill
+8,x1,de storage
+10,x4,camp
+12,x2,baracks
+13,x1,baracks
+14,x1,baracks
+11,x1,lab
+5,x1,spell fac
+7,x1,dark baracks
+9,x1,dark baracks
+5,x1,de spell fac
+1,x1,workshop
+2,x1,bomb
+7,x6,bomb
+1,x3,spring
+5,x6,spring
+1,x1,gb
+4,x5,gb
+2,x1,rab
+4,x5,rab
+1,x1,sam
+2,x1,sam
+3,x5,sam
+4,x3,skelly
+2,x1,nado
+7,x1,barb
+9,x1,arch
+9,x1,gi
+7,x1,gob
+8,x1,wb
+9,x1,loon
+8,x1,wiz
+6,x1,healer
+6,x1,drag
+7,x1,pekka
+5,x1,bd
+7,x1,miner
+1,x1,ed
+3,x1,yeti
+6,x1,min
+10,x1,hog
+5,x1,valk
+5,x1,golem
+3,x1,witch
+5,x1,lava
+3,x1,bowler
+3,x1,ig
+1,x1,hh
+9,x1,lightning
+7,x1,heal
+6,x1,rage
+3,x1,jump
+7,x1,freeze
+5,x1,clone
+6,x1,poi
+4,x1,eq
+5,x1,haste
+3,x1,skelly spell
+3,x1,bat
+1,x1,ww
+1,x1,blimp
+1,x1,slammer
+1,x1,sb

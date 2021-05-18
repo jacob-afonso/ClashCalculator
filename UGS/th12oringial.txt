@@ -1,0 +1,690 @@
+Gold
+1,250,10s,cannon
+2,1000,15m,cannon
+3,4000,45m,cannon
+4,16000,1h,cannon
+5,50000,4h,cannon
+6,100000,8h,cannon
+7,200000,8h,cannon
+8,400000,12h,cannon
+9,800000,12h,cannon
+10,1000000,1d,cannon
+11,2000000,1d12h,cannon
+12,3000000,2d,cannon
+13,4000000,3d,cannon
+14,5500000,5d,cannon
+15,7000000,6d,cannon
+16,10000000,9d,cannon
+17,12000000,12d,cannon
+1,1000,1m,at
+2,2000,30m,at
+3,5000,45m,at
+4,20000,3h,at
+5,80000,8h,at
+6,180000,8h,at
+7,360000,12h,at
+8,720000,12h,at
+9,1000000,16h,at
+10,1500000,1d,at
+11,2000000,1d12h,at
+12,3000000,2d,at
+13,4000000,3d,at
+14,5500000,6d,at
+15,7000000,8d,at
+16,10000000,10d,at
+17,12000000,12d,at
+1,8000,3h,mortar
+2,32000,8h,mortar
+3,120000,16h,mortar
+4,400000,1d12h,mortar
+5,800000,2d12h,mortar
+6,1600000,3d,mortar
+7,3200000,4d,mortar
+8,5000000,5d,mortar
+9,7000000,6d,mortar
+10,9000000,10d,mortar
+11,11000000,12d,mortar
+12,12000000,14d,mortar
+1,22500,3h,ad
+2,90000,12h,ad
+3,270000,16h,ad
+4,500000,1d,ad
+5,1000000,1d12h,ad
+6,2000000,2d,ad
+7,3000000,3d,ad
+8,4500000,6d,ad
+9,7500000,10d,ad
+10,10000000,14d,ad
+1,180000,3h,wt
+2,360000,8h,wt
+3,700000,16h,wt
+4,1200000,1d,wt
+5,1700000,1d12h,wt
+6,2200000,2d,wt
+7,3200000,3d,wt
+8,4200000,4d,wt
+9,5200000,6d,wt
+10,9200000,10d,wt
+11,11200000,14d,wt
+1,500000,8h,as
+2,750000,16h,as
+3,1250000,1d,as
+4,2000000,1d12h,as
+5,3000000,2d,as
+6,5000000,4d,as
+7,8000000,6d12h,as
+1,500000,3h,tesla
+2,750000,8h,tesla
+3,1000000,16h,tesla
+4,1250000,1d,tesla
+5,1500000,2d,tesla
+6,2000000,3d,tesla
+7,3000000,4d,tesla
+8,4500000,6d,tesla
+9,7500000,10d,tesla
+10,10000000,14d,tesla
+1,1500000,1d,bt
+2,2000000,2d,bt
+3,3500000,3d,bt
+4,5000000,6d,bt
+5,7000000,8d,bt
+6,9000000,10d,bt
+7,11000000,14d,bt
+1,2000000,3d,bow
+2,3000000,5d,bow
+3,4000000,6d12h,bow
+4,6000000,8d,bow
+5,9000000,10d,bow
+6,12000000,14d,bow
+1,5000000,4d12h,it
+2,6000000,5d12h,it
+3,7000000,6d12h,it
+4,8000000,8d,it
+5,10000000,10d,it
+6,11000000,14d,it
+1,8000000,7d,ea
+2,10000000,10d,ea
+3,12000000,14d,ea
+1,N/A,N/A,giga tesla
+2,6000000,2d,giga tesla
+3,8000000,4d,giga tesla
+4,10000000,6d,giga tesla
+5,12000000,8d,giga tesla
+1,400,N/A,bomb
+2,1000,15m,bomb
+3,10000,2h,bomb
+4,100000,8h,bomb
+5,500000,1d,bomb
+6,1000000,2d,bomb
+7,1500000,3d,bomb
+8,2500000,4d,bomb
+1,2000,N/A,spring
+2,500000,16h,spring
+3,750000,1d,spring
+4,1000000,2d,spring
+5,1500000,3d,spring
+1,4000,N/A,rab
+2,20000,4h,rab
+3,200000,12h,rab
+4,1000000,1d,rab
+5,2500000,2d,rab
+6,3000000,3d,rab
+1,12500,N/A,gb
+2,75000,6h,gb
+3,750000,1d,gb
+4,2500000,3d,gb
+5,3500000,5d,gb
+1,15000,N/A,sam
+2,1500000,1d,sam
+3,3000000,3d,sam
+1,6000,N/A,skelly
+2,600000,6h,skelly
+3,1300000,1d,skelly
+4,2000000,2d,skelly
+1,3000000,N/A,nado
+2,4000000,2d,nado
+3,5000000,3d,nado
+1,N/A,N/A,th
+2,1000,10s,th
+3,4000,2h,th
+4,25000,8h,th
+5,150000,12h,th
+6,750000,1d,th
+7,1200000,2d,th
+8,2000000,3d,th
+9,3000000,4d,th
+10,5000000,6d,th
+11,7000000,10d,th
+12,9500000,14d,th
+1,150,10s,elix collector
+2,300,1m,elix collector
+3,700,15m,elix collector
+4,1400,1h,elix collector
+5,3500,1h,elix collector
+6,7000,4h,elix collector
+7,14000,6h,elix collector
+8,28000,8h,elix collector
+9,56000,10h,elix collector
+10,84000,12h,elix collector
+11,168000,16h,elix collector
+12,336000,1d,elix collector
+13,504000,3d,elix collector
+14,840000,5d,elix collector
+1,300,10s,elix storage
+2,750,15m,elix storage
+3,1500,30m,elix storage
+4,3000,1h,elix storage
+5,6000,2h,elix storage
+6,12000,3h,elix storage
+7,25000,4h,elix storage
+8,50000,5h,elix storage
+9,100000,8h,elix storage
+10,250000,12h,elix storage
+11,500000,16h,elix storage
+12,1500000,3d,elix storage
+13,3000000,6d,elix storage
+1,10000,N/A,cc
+2,100000,8h,cc
+3,800000,12h,cc
+4,1800000,1d,cc
+5,4000000,2d,cc
+6,6000000,6d,cc
+7,9000000,10d,cc
+8,12000000,14d,cc
+Elixir
+1,1000000,8h,de drill
+2,1250000,1d,de drill
+3,1500000,1d12h,de drill
+4,1750000,2d,de drill
+5,2000000,3d,de drill
+6,2500000,4d,de drill
+7,3000000,5d,de drill
+8,3500000,6d,de drill
+1,300,10s,gold storage
+2,750,15m,gold storage
+3,1500,30m,gold storage
+4,3000,1h,gold storage
+5,6000,2h,gold storage
+6,12000,3h,gold storage
+7,25000,4h,gold storage
+8,50000,5h,gold storage
+9,100000,8h,gold storage
+10,250000,12h,gold storage
+11,500000,16h,gold storage
+12,1500000,3d,gold storage
+13,3000000,6d,gold storage
+1,500000,8h,de storage
+2,750000,16h,de storage
+3,1000000,1d,de storage
+4,1500000,1d12h,de storage
+5,2000000,2d,de storage
+6,3000000,3d,de storage
+7,6000000,5d,de storage
+1,250,5m,camp
+2,2500,1h,camp
+3,10000,2h,camp
+4,100000,5h,camp
+5,250000,8h,camp
+6,750000,12h,camp
+7,2250000,2d,camp
+8,5000000,4d,camp
+9,7000000,10d,camp
+10,9000000,14d,camp
+1,200,10s,baracks
+2,1000,1m,baracks
+3,2500,15m,baracks
+4,5000,1h,baracks
+5,10000,4h,baracks
+6,80000,8h,baracks
+7,240000,12h,baracks
+8,700000,16h,baracks
+9,1000000,1d,baracks
+10,1500000,2d,baracks
+11,2500000,3d,baracks
+12,3250000,5d,baracks
+13,4000000,8d,baracks
+14,5000000,9d,baracks
+1,500000,8h,dark baracks
+2,1000000,16h,dark baracks
+3,1500000,1d,dark baracks
+4,2000000,1d12h,dark baracks
+5,2500000,2d,dark baracks
+6,3000000,3d,dark baracks
+7,4000000,5d,dark baracks
+8,6000000,10d,dark baracks
+9,9000000,13d,dark baracks
+1,25000,1m,lab
+2,50000,2h,lab
+3,90000,8h,lab
+4,270000,10h,lab
+5,500000,12h,lab
+6,1000000,1d,lab
+7,2000000,2d,lab
+8,3000000,3d,lab
+9,6000000,6d,lab
+10,8000000,8d,lab
+1,200000,8h,spell fac
+2,400000,1d,spell fac
+3,800000,2d,spell fac
+4,1600000,3d12h,spell fac
+5,3200000,6d,spell fac
+1,1000000,8h,de spell fac
+2,2000000,2d,de spell fac
+3,2750000,3d,de spell fac
+4,3250000,5d,de spell fac
+5,4000000,7d12h,de spell fac
+1,7500000,6d,workshop
+2,9000000,8d,workshop
+3,10500000,10d,workshop
+1,150,10s,gold mine
+2,300,1m,gold mine
+3,700,15m,gold mine
+4,1400,1h,gold mine
+5,3000,1h,gold mine
+6,7000,4h,gold mine
+7,14000,6h,gold mine
+8,28000,8h,gold mine
+9,56000,10h,gold mine
+10,84000,12h,gold mine
+11,168000,16h,gold mine
+12,336000,1d,gold mine
+13,504000,3d,gold mine
+14,840000,5d,gold mine
+1,6000000,N/A,gw
+2,2500000,12h,gw
+3,3000000,1d,gw
+4,3500000,1d12h,gw
+5,4000000,2d,gw
+6,4500000,2d12h,gw
+7,5000000,3d,gw
+8,5500000,3d12h,gw
+9,6000000,4d,gw
+10,6500000,4d12h,gw
+11,7000000,5d,gw
+12,7500000,5d12h,gw
+13,8000000,6d,gw
+14,8400000,6d12h,gw
+15,8800000,7d,gw
+16,9100000,7d,gw
+17,9400000,7d,gw
+18,9600000,7d,gw
+19,9800000,7d,gw
+20,10000000,7d,gw
+21,10000000,7d,gw
+22,10200000,7d,gw
+23,10400000,7d,gw
+24,10600000,7d,gw
+25,10800000,7d,gw
+26,11000000,7d,gw
+27,11200000,7d,gw
+28,11400000,7d,gw
+29,11600000,7d,gw
+30,11800000,7d,gw
+31,12000000,7d,gw
+32,12000000,7d,gw
+33,12000000,7d,gw
+34,12000000,7d,gw
+35,12000000,7d,gw
+36,12000000,7d,gw
+37,12000000,7d,gw
+38,12000000,7d,gw
+39,12000000,7d,gw
+40,12000000,7d,gw
+Dark Elixir
+1,10000,N/A,bk
+2,12000,12h,bk
+3,14000,12h,bk
+4,16000,1d,bk
+5,18000,1d,bk
+6,20000,1d,bk
+7,22000,1d12h,bk
+8,24000,1d12h,bk
+9,26000,1d12h,bk
+10,28000,2d,bk
+11,30000,2d,bk
+12,32000,2d,bk
+13,34000,2d12h,bk
+14,36000,2d12h,bk
+15,38000,2d12h,bk
+16,40000,3d,bk
+17,42000,3d,bk
+18,44000,3d,bk
+19,46000,3d12h,bk
+20,48000,3d12h,bk
+21,50000,3d12h,bk
+22,53000,4d,bk
+23,56000,4d,bk
+24,59000,4d,bk
+25,62000,4d12h,bk
+26,65000,4d12h,bk
+27,68000,4d12h,bk
+28,72000,5d,bk
+29,76000,5d,bk
+30,80000,5d,bk
+31,88000,5d12h,bk
+32,96000,5d12h,bk
+33,104000,5d12h,bk
+34,112000,6d,bk
+35,120000,6d,bk
+36,128000,6d,bk
+37,136000,6d12h,bk
+38,144000,6d12h,bk
+39,152000,6d12h,bk
+40,160000,7d,bk
+41,170000,7d,bk
+42,173000,7d,bk
+43,176000,7d,bk
+44,179000,7d,bk
+45,182000,7d,bk
+46,185000,7d,bk
+47,188000,7d,bk
+48,191000,7d,bk
+49,194000,7d,bk
+50,197000,7d,bk
+51,200000,7d,bk
+52,203000,7d,bk
+53,206000,7d,bk
+54,209000,7d,bk
+55,212000,7d,bk
+56,215000,7d,bk
+57,218000,7d,bk
+58,221000,7d,bk
+59,224000,7d,bk
+60,227000,7d,bk
+61,230000,7d,bk
+62,233000,7d,bk
+63,236000,7d,bk
+64,239000,7d,bk
+65,240000,7d,bk
+1,20000,N/A,aq
+2,22000,12h,aq
+3,24000,12h,aq
+4,26000,1d,aq
+5,28000,1d,aq
+6,30000,1d,aq
+7,32000,1d12h,aq
+8,34000,1d12h,aq
+9,36000,1d12h,aq
+10,38000,2d,aq
+11,40000,2d,aq
+12,42000,2d,aq
+13,44000,2d12h,aq
+14,46000,2d12h,aq
+15,48000,2d12h,aq
+16,50000,3d,aq
+17,53000,3d,aq
+18,56000,3d,aq
+19,59000,3d12h,aq
+20,62000,3d12h,aq
+21,65000,3d12h,aq
+22,68000,4d,aq
+23,71000,4d,aq
+24,74000,4d,aq
+25,77000,4d12h,aq
+26,80000,4d12h,aq
+27,83000,4d12h,aq
+28,86000,5d,aq
+29,89000,5d,aq
+30,92000,5d,aq
+31,98000,5d12h,aq
+32,106000,5d12h,aq
+33,114000,5d12h,aq
+34,122000,6d,aq
+35,130000,6d,aq
+36,138000,6d,aq
+37,146000,6d12h,aq
+38,154000,6d12h,aq
+39,162000,6d12h,aq
+40,170000,7d,aq
+41,180000,7d,aq
+42,182000,7d,aq
+43,184000,7d,aq
+44,186000,7d,aq
+45,188000,7d,aq
+46,190000,7d,aq
+47,192000,7d,aq
+48,194000,7d,aq
+49,196000,7d,aq
+50,198000,7d,aq
+51,200000,7d,aq
+52,204000,7d,aq
+53,208000,7d,aq
+54,212000,7d,aq
+55,216000,7d,aq
+56,220000,7d,aq
+57,224000,7d,aq
+58,228000,7d,aq
+59,232000,7d,aq
+60,236000,7d,aq
+61,240000,7d,aq
+62,240000,7d,aq
+63,240000,7d,aq
+64,240000,7d,aq
+65,240000,7d,aq
+Laboratory
+Elixir
+1,N/A,N/A,barb
+2,50000,6h,barb
+3,150000,1d,barb
+4,500000,2d,barb
+5,1250000,3d,barb
+6,2750000,4d,barb
+7,4500000,5d,barb
+8,7000000,8d,barb
+9,11000000,12d,barb
+1,N/A,N/A,arch
+2,50000,12h,arch
+3,250000,1d,arch
+4,750000,2d,arch
+5,1500000,3d,arch
+6,3250000,4d,arch
+7,5000000,5d,arch
+8,8000000,8d,arch
+9,11500000,12d,arch
+1,N/A,N/A,gi
+2,100000,12h,gi
+3,250000,1d12h,gi
+4,750000,2d,gi
+5,2000000,3d,gi
+6,3500000,5d,gi
+7,5000000,6d,gi
+8,8500000,10d,gi
+9,11500000,14d,gi
+1,N/A,N/A,gob
+2,50000,12h,gob
+3,250000,1d12h,gob
+4,750000,2d,gob
+5,1500000,3d,gob
+6,3000000,5d,gob
+7,5500000,7d,gob
+8,10500000,12d,gob
+1,N/A,N/A,wb
+2,100000,12h,wb
+3,250000,1d12h,wb
+4,750000,2d,wb
+5,1750000,3d,wb
+6,5500000,5d,wb
+7,9000000,8d,wb
+8,12000000,14d,wb
+1,N/A,N/A,loon
+2,150000,12h,loon
+3,450000,1d12h,loon
+4,1350000,2d,loon
+5,2500000,3d,loon
+6,4500000,5d,loon
+7,9500000,10d,loon
+8,12000000,14d,loon
+1,N/A,N/A,wiz
+2,150000,12h,wiz
+3,450000,1d12h,wiz
+4,1350000,2d,wiz
+5,2250000,3d,wiz
+6,4000000,5d,wiz
+7,6000000,6d,wiz
+8,9000000,10d,wiz
+9,11000000,14d,wiz
+1,N/A,N/A,healer
+2,750000,2d,healer
+3,1500000,3d,healer
+4,3000000,5d,healer
+5,9500000,14d,healer
+1,N/A,N/A,drag
+2,2000000,4d,drag
+3,2750000,5d,drag
+4,4500000,6d,drag
+5,6500000,7d,drag
+6,9000000,10d,drag
+7,11000000,14d,drag
+1,N/A,N/A,pekka
+2,2500000,4d,pekka
+3,3000000,5d,pekka
+4,4500000,6d,pekka
+5,6000000,7d,pekka
+6,7000000,8d,pekka
+7,9500000,10d,pekka
+8,12000000,14d,pekka
+1,N/A,N/A,bd
+2,4000000,5d,bd
+3,5000000,6d,bd
+4,6000000,7d,bd
+5,8000000,10d,bd
+6,9000000,14d,bd
+1,N/A,N/A,miner
+2,5500000,5d12h,miner
+3,6500000,6d12h,miner
+4,8000000,8d,miner
+5,9500000,11d12h,miner
+6,11000000,14d,miner
+1,N/A,N/A,ed
+2,9000000,10d,ed
+3,11000000,14d,ed
+1,N/A,N/A,yeti
+2,11000000,14d,yeti
+1,N/A,N/A,ww
+2,6000000,8d,ww
+3,8000000,10d,ww
+1,N/A,N/A,blimp
+2,6000000,8d,blimp
+3,8000000,10d,blimp
+1,N/A,N/A,slammer
+2,6000000,8d,slammer
+3,8000000,10d,slammer
+1,N/A,N/A,lightning
+2,200000,1d,lightning
+3,500000,2d,lightning
+4,1000000,3d,lightning
+5,2000000,4d,lightning
+6,4000000,6d,lightning
+7,6000000,9d,lightning
+8,8000000,11d,lightning
+9,10000000,13d,lightning
+1,N/A,N/A,heal
+2,300000,1d,heal
+3,600000,2d,heal
+4,1200000,3d,heal
+5,2000000,4d,heal
+6,4000000,6d,heal
+7,6000000,10d,heal
+1,N/A,N/A,rage
+2,450000,2d,rage
+3,900000,3d,rage
+4,1800000,4d,rage
+5,3000000,5d,rage
+6,11000000,11d12h,rage
+1,N/A,N/A,jump
+2,3000000,4d,jump
+3,6000000,7d,jump
+1,N/A,N/A,freeze
+2,3000000,3d,freeze
+3,4000000,4d12h,freeze
+4,5000000,6d12h,freeze
+5,6000000,8d,freeze
+6,9500000,9d,freeze
+7,11000000,11d12h,freeze
+1,N/A,N/A,clone
+2,4000000,4d,clone
+3,6000000,5d,clone
+4,8000000,6d12h,clone
+5,10000000,11d12h,clone
+Dark Elixir
+1,N/A,N/A,poi
+2,25000,2d12h,poi
+3,50000,4d,poi
+4,75000,6d12h,poi
+5,150000,9d12h,poi
+6,200000,11d,poi
+1,N/A,N/A,eq
+2,30000,4d,eq
+3,60000,5d,eq
+4,90000,9d12h,eq
+5,120000,11d,eq
+1,N/A,N/A,haste
+2,40000,5d,haste
+3,80000,6d12h,haste
+4,100000,9d,haste
+5,120000,11d,haste
+1,N/A,N/A,skelly spell
+2,40000,5d,skelly spell
+3,60000,6d12h,skelly spell
+4,100000,8d,skelly spell
+5,125000,9d,skelly spell
+6,150000,11d,skelly spell
+1,N/A,N/A,bat
+2,60000,5d,bat
+3,80000,6d12h,bat
+4,120000,8d,bat
+5,160000,9d,bat
+1,N/A,N/A,min
+2,10000,3d,min
+3,20000,3d12h,min
+4,30000,4d,min
+5,40000,5d12h,min
+6,50000,7d12h,min
+7,140000,11d12h,min
+8,180000,14d,min
+1,N/A,N/A,hog
+2,20000,3d12h,hog
+3,30000,4d,hog
+4,40000,4d12h,hog
+5,50000,6d,hog
+6,60000,7d12h,hog
+7,150000,11d12h,hog
+8,200000,14d,hog
+9,240000,14d,hog
+1,N/A,N/A,valk
+2,40000,4d,valk
+3,50000,5d12h,valk
+4,60000,6d12h,valk
+5,70000,8d,valk
+6,150000,11d12h,valk
+7,190000,14d,valk
+1,N/A,N/A,golem
+2,50000,4d,golem
+3,60000,5d12h,golem
+4,70000,6d12h,golem
+5,80000,8d,golem
+6,120000,9d12h,golem
+7,180000,11d12h,golem
+8,200000,14d,golem
+9,220000,14d,golem
+1,N/A,N/A,witch
+2,75000,6d,witch
+3,120000,9d,witch
+4,160000,12d,witch
+5,200000,14d,witch
+1,N/A,N/A,lava
+2,60000,6d12h,lava
+3,70000,8d,lava
+4,150000,11d12h,lava
+5,200000,14d,lava
+1,N/A,N/A,bowler
+2,120000,8d12h,bowler
+3,160000,12d,bowler
+4,200000,14d,bowler
+1,N/A,N/A,ig
+2,80000,8d,ig
+3,120000,10d,ig
+4,160000,12d,ig
+5,200000,14d,ig
+1,N/A,N/A,hh
+2,180000,14d,hh
